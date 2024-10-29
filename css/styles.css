@@ -1,0 +1,68 @@
+.body-background-color {
+  background-color: lightcoral;
+}
+
+h1,
+h2 {
+  color: antiquewhite;
+}
+
+footer p {
+  color: antiquewhite;
+}
+
+.btn-personalizado {
+  color: lightcoral;
+  background-color: antiquewhite;
+  border-color: antiquewhite;
+}
+
+.card-custom {
+  border: 1px solid lightcoral; /* Cambia #ff5733 por el color que desees */
+}
+
+.card-custom h5 {
+  color: lightcoral;
+}
+
+.card-custom p {
+  color: lightcoral;
+}
+
+.zoom img {
+  transition: transform 0.3s ease;
+}
+.zoom:hover img {
+  transform: scale(1.1);
+}
+
+.card {
+  transition: opacity 0.3s ease;
+}
+.card:hover {
+  opacity: 0.9;
+}
+
+.input-expand {
+  transition: transform 0.3s ease;
+}
+.input-expand:focus {
+  transform: scale(1.01);
+}
+
+.btn-hov:hover {
+  background-color: white;
+  color: lightcoral;
+}
+
+.color-cycle {
+  animation: colorChange 3s infinite alternate;
+}
+@keyframes colorChange {
+  0% {
+    color: antiquewhite;
+  }
+  100% {
+    color: white;
+  }
+}
